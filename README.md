@@ -37,7 +37,7 @@ TelegramPager — это ESP8266-устройство с OLED-дисплеем, 
 - **Chat ID** (можно добавить несколько)
 
 <div align="center">
-  <img src="2.jpg" width="400"/>
+  <img src="images/2.jpg" width="400"/>
 </div>
 
 После сохранения настроек устройство автоматически перезагружается.
@@ -51,7 +51,7 @@ TelegramPager — это ESP8266-устройство с OLED-дисплеем, 
 3. Подключитесь к сети `TelegramPager` и откройте веб-интерфейс.
 
 <div align="center">
-  <img src="4.jpg" width="400"/>
+  <img src="images/4.jpg" width="400"/>
 </div>
 
 4. Введите Wi-Fi данные, Telegram Token и Chat ID.
@@ -59,7 +59,7 @@ TelegramPager — это ESP8266-устройство с OLED-дисплеем, 
 6. Для просмотра следующей страницы сообщения используйте кнопку `Next`.
 
 <div align="center">
-  <img src="1.gif" width="400"/>
+  <img src="images/1.gif" width="400"/>
 </div>
 
 ---
@@ -72,7 +72,7 @@ TelegramPager — это ESP8266-устройство с OLED-дисплеем, 
 - Кнопка листания `BTN_NEXT` имеет антидребезговую защиту.
 - Сброс настроек осуществляется кнопкой `BTN_RESET`.
 <div align="center">
-  <img src="3.jpg" width="400"/>
+  <img src="images/3.jpg" width="400"/>
 </div>
 
 ---
