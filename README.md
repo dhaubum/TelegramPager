@@ -88,6 +88,7 @@ TelegramPager — это ESP8266-устройство с OLED-дисплеем, 
    - `UniversalTelegramBot`
    - `ArduinoJson`
    - `U8g2lib`
+   - `Wire`
 2. Подключите OLED-дисплей и кнопки к ESP8266.
 3. Загрузите скетч **tgbot.ino** через Arduino IDE или PlatformIO.
 
