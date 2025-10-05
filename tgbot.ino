@@ -10,9 +10,9 @@
 #include <Wire.h>
 
 // ------------------- Пины -------------------
-#define LED_PIN    14        // Светодиод (D5 на NodeMCU)
-#define BTN_RESET  0         // Кнопка сброса (D3 = GPIO0)
-#define BTN_NEXT   2         // Кнопка "Следующая страница" (D4 = GPIO2)
+#define LED_PIN    14        // Светодиод (D5)
+#define BTN_RESET  0         // Кнопка сброса (D3)
+#define BTN_NEXT   2         // Кнопка "Следующая страница" (D4)
 
 // ------------------- Глобальные переменные -------------------
 ESP8266WebServer server(80);
@@ -22,7 +22,7 @@ WiFiClientSecure secured_client;
 String WIFI_SSID;
 String WIFI_PASS;
 String BOT_TOKEN;
-String ALLOWED_CHATS;        // строка вида "123,456,789"
+String ALLOWED_CHATS;        
 
 UniversalTelegramBot* bot = nullptr;
 unsigned long bot_lasttime = 0;
